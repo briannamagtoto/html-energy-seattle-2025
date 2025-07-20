@@ -89,15 +89,24 @@ h2 {
     }
     
     .main-text {
-        width: 95vw;
-        padding: clamp(0.5rem, 3vw, 1.5rem);
-        font-size: clamp(0.5rem, 4vw, 1rem);
+        width: 100vw;
+        margin: 1em 0;
+        padding: clamp(0.5rem, 2vw, 1rem);
+        font-size: clamp(0.8rem, 4.5vw, 1.2rem);
+        box-sizing: border-box;
     }
     
     .registration-form {
-        width: 95vw;
-        padding: clamp(0.5rem, 3vw, 1.5rem);
-        font-size: clamp(0.5rem, 4vw, 1rem);
+        width: 100vw;
+        margin: 1em 0;
+        padding: clamp(0.5rem, 2vw, 1rem);
+        font-size: clamp(0.8rem, 4.5vw, 1.2rem);
+        box-sizing: border-box;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
     }
 }
 
